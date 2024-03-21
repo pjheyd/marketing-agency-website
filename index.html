@@ -5,97 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Marketing Agency Homepage</title>
 </head>
 
 <body>
     <!-- HEADER -->
     <header>
-        <span class="logo-header">LOGO</span>
+        <span class="logo-header"><a href="#home">LOGO</a></span>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <nav class="nav-link">
             <ul class="links">
-                <li class="link link1"><a href="#home" class="nav-a-link link-active">Link 1</a></li>
-                <li class="link link2"><a href="#about-us" class="nav-a-link">Link 2</a></li>
-                <li class="link link3"><a href="#services" class="nav-a-link">Link 3</a></li>
-                <li class="link link4"><a href="#testimonials" class="nav-a-link">Link 4</a></li>
+                <li class="link"><a href="#home" class="nav-a-link link-active">Link 1</a></li>
+                <li class="link"><a href="#about-us" class="nav-a-link">Link 2</a></li>
+                <li class="link"><a href="#services" class="nav-a-link">Link 3</a></li>
+                <li class="link"><a href="#testimonials" class="nav-a-link">Link 4</a></li>
+                <li class="link li-btn"><button class="header-btn"><span>Request a Consultation</span></button></li>
             </ul>
         </nav>
-        <button class="header-btn"><span>Request a Consultation</span></button>
     </header>
 
     <!-- HOME -->
     <section id="home" class="home-section">
-        <div class="home-container">
+        <main>
             <h1 class="home-heading"><span>Eliminate</span> Random Acts of Marketing</h1>
             <p class="home-desc">Get advice, tips, tools and guidance to generate more leads for your company in this
-                weekly email newsletter.</p>
+                    weekly email newsletter.</p>
             <button class="home-btn"><span>Request a Consultation</span></button>
             <p class="home-revs"><span>&#9733; &#9733; &#9733; &#9733; &#9733;</span> 16,000+ Reviews</p>
-            <div class="main-img-container"><img class="main-img" src="./images/img1.png" alt="" draggable="false">
-            </div>
-        </div>
-        <div id="h-slider">
-            <input type="radio" name="h-slider" id="h-slide1" checked>
-            <input type="radio" name="h-slider" id="h-slide2">
-            <input type="radio" name="h-slider" id="h-slide3">
-            <div id="h-slides">
-                <div id="h-overflow">
-                    <div class="h-inner">
-                        <div class="h-slide h-slide_1">
-                            <div class="h-slide-content">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img4.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
+            <div class="main-img-container"><img class="main-img" src="./images/img1.png" alt="" draggable="false"></div>
+            
+            <article class="h-slider">
+                <input type="radio" name="h-slider" id="h-slide1" checked>
+                <input type="radio" name="h-slider" id="h-slide2">
+                <input type="radio" name="h-slider" id="h-slide3">
+                <div class="h-slides">
+                    <div class="h-overflow">
+                        <div class="h-inner">
+                            <div class="h-slide h-slide_1">
+                                <div class="h-slide-content">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img4.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="h-slide h-slide_2">
-                            <div class="h-slide-content">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img4.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
+                            <div class="h-slide h-slide_2">
+                                <div class="h-slide-content">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img4.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="h-slide h-slide_3">
-                            <div class="h-slide-content">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img5.png" alt="">
-                                <img class="h-slide-img" src="./images/img4.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
-                                <img class="h-slide-img" src="./images/img3.png" alt="">
+                            <div class="h-slide h-slide_3">
+                                <div class="h-slide-content">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img5.png" alt="">
+                                    <img class="h-slide-img" src="./images/img4.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                    <img class="h-slide-img" src="./images/img3.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="h-controls">
-                <label for="h-slide1"></label>
-                <label for="h-slide2"></label>
-                <label for="h-slide3"></label>
-            </div>
-        </div>
-        <div class="message-circle">
-            <img class="message-icon" src="./images/message-icon.png" alt="">
-        </div>
-        <div class="wave">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-                    class="shape-fill"></path>
-            </svg>
-        </div>
+                <div class="h-controls">
+                    <label for="h-slide1"></label>
+                    <label for="h-slide2"></label>
+                    <label for="h-slide3"></label>
+                </div>
+            </article>
 
+            <div class="wave">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </main>
     </section>
+
+    <div class="message-circle">
+        <img class="message-icon" src="./images/message-icon.png" alt="">
+    </div>
 
     <!-- ABOUT US -->
     <section id="about-us" class="aboutUs-section">
@@ -193,12 +196,12 @@
         <p class="test-desc">Lorem ipsum dolor sit amet. Consectetur elit arcu dictumst id ultrices augue risus
             vulputate non gravida. Laoreet egestas a rhoncus feugiat quam mi libero pretium tellus</p>
 
-        <div id="t-slider">
+        <div class="t-slider">
             <input type="radio" name="t-slider" id="t-slide1" checked>
             <input type="radio" name="t-slider" id="t-slide2">
             <input type="radio" name="t-slider" id="t-slide3">
-            <div id="t-slides">
-                <div id="t-overflow">
+            <div class="t-slides">
+                <div class="t-overflow">
                     <div class="t-inner">
                         <div class="t-slide t-slide_1">
                             <div class="t-slide-content">
@@ -323,7 +326,7 @@
                     </div>
                 </div>
             </div>
-            <div id="t-bullets">
+            <div class="t-bullets">
                 <label for="t-slide1"></label>
                 <label for="t-slide2"></label>
                 <label for="t-slide3"></label>
@@ -402,7 +405,7 @@
     <footer>
         <div class="footer1">
             <div class="footer-flex">
-                <div class="footer-flex-item">
+                <div class="footer-flex-item last-order">
                     <h2 class="logo-footer"><a href="#">LOGO</a></h2>
                     <p class="contact-number">(215) 491-0100</p>
                     <p class="contact-email">iinfo@square2marketingcom</p>
@@ -426,7 +429,8 @@
                     </div>
                 </div>
                 <div class="footer-flex-item">
-                    <h3 class="footer-subHeading"><a href="#">Who We Are</a></h3>
+                    <input type="checkbox" id="acc-footer-1" class="acc-footer-inp">
+                    <h3 class="footer-subHeading"><label for="acc-footer-1">Who We Are</label></h3>
                     <ul class="footer-ul">
                         <li><a href="#">Strategy</a></li>
                         <li><a href="#">Tactics</a></li>
@@ -439,7 +443,8 @@
                     </ul>
                 </div>
                 <div class="footer-flex-item">
-                    <h3 class="footer-subHeading"><a href="#">Services</a></h3>
+                    <input type="checkbox" id="acc-footer-2" class="acc-footer-inp">
+                    <h3 class="footer-subHeading"><label for="acc-footer-2">Services</label></h3>
                     <ul class="footer-ul">
                         <li><a href="#">Strategy</a></li>
                         <li><a href="#">Tactics</a></li>
@@ -449,7 +454,8 @@
                     </ul>
                 </div>
                 <div class="footer-flex-item">
-                    <h3 class="footer-subHeading"><a href="#">Portfolio</a></h3>
+                    <input type="checkbox" id="acc-footer-3" class="acc-footer-inp">
+                    <h3 class="footer-subHeading"><label for="acc-footer-3">Portfolio</label></h3>
                     <ul class="footer-ul">
                         <li><a href="#">Strategy</a></li>
                         <li><a href="#">Tactics</a></li>
@@ -460,7 +466,8 @@
                     </ul>
                 </div>
                 <div class="footer-flex-item">
-                    <h3 class="footer-subHeading"><a href="#">About</a></h3>
+                    <input type="checkbox" id="acc-footer-4" class="acc-footer-inp">
+                    <h3 class="footer-subHeading"><label for="acc-footer-4">About</label></h3>
                     <ul class="footer-ul">
                         <li><a href="#">Strategy</a></li>
                         <li><a href="#">Tactics</a></li>
@@ -471,7 +478,7 @@
                         <li><a href="#">Case Studies</a></li>
                     </ul>
                 </div>
-                <div class="footer-flex-item">
+                <div class="footer-flex-item last-order1">
                     <h3 class="footer-subHeading">Get in touch!</h3>
                     <label for="input_email" class="footer-input-lbl">
                         <input type="email" id="input_email" class="footer-input" name="email" placeholder="Email Address">
